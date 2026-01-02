@@ -98,4 +98,8 @@ fn main() {
 
     let sum = add_num(3, 4);
     println!("Sum is: {}", sum);
+
+    let a = String::from("Hello");
+    let b = a;
+    println!("{}", b);
 }
